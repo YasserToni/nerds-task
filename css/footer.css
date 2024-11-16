@@ -1,0 +1,172 @@
+/***********Footer *************************************/
+footer {
+  margin-top: 200px;
+  background: #333333;
+  padding: 120px 70px 10px 70px;
+  position: relative;
+}
+.footer-container {
+  display: flex;
+  gap: 24px;
+  border-bottom: 0.55px solid #9c9c9c80;
+  padding-bottom: 70px;
+}
+.footer-container .contact {
+  color: #ffffff;
+}
+.footer-container .contact .description {
+  flex-grow: 2;
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 38.75px;
+  margin: 20px 20px 30px 20px;
+}
+.footer-container .contact div h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 22.5px;
+  margin: 20px;
+}
+.footer-container .contact div .email {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22.5px;
+  margin: 20px;
+}
+.footer-container .contact .social-icon {
+  margin: 20px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 3px;
+}
+.footer-container .contact .social-icon div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+.footer-container .contact .social-icon i {
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22.5px;
+}
+.footer-container .help {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 10px 20px 10px 20px;
+}
+.footer-container .help h4 {
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 22.5px;
+  color: #ffffff;
+}
+.footer-container .help a {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22.5px;
+  color: #ffffffcc;
+}
+footer .copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+footer .copyright ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+footer .copyright ul li {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22.75px;
+  color: #ffffff;
+}
+/******************* Float *********/
+.float-container {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  top: -70px;
+  left: 13%;
+  z-index: 2;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 15px 25px 15px 25px;
+  box-shadow: 0px 5px 20px 0px #00000026;
+}
+.float-container .icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.float-container .icon-container img {
+  width: 69px;
+  height: 69px;
+}
+.float-container .icon-container span {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22.75px;
+}
+.float-container .learn-more {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16.94px;
+  color: #beaf7c;
+}
+/* For Large Desktops (1441px and above) */
+@media only screen and (min-width: 1441px) {
+}
+
+/* For Small Laptops (1025px - 1440px) */
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+  .footer-container {
+    flex-wrap: wrap;
+  }
+  .float-container {
+    display: none;
+  }
+}
+
+/* For Tablets (601px - 1024px) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .footer-container {
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+  }
+  .float-container {
+    display: none;
+  }
+}
+/* For Mobile Devices (up to 600px) */
+@media only screen and (max-width: 600px) {
+  .footer-container {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .float-container {
+    display: none;
+  }
+}

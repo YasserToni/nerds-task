@@ -1,22 +1,21 @@
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css");
-
-/***************************Navigate**************************************/
-/* .navigate-container {
+.navigate-container {
   background-color: #f9f9f9;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .navigate {
+  padding-left: 60px;
+  padding-right: 60px;
+  width: 100vw;
   display: flex;
-  width: 1395px;
   justify-content: space-between;
-  align-items: start;
+  align-items: center;
   height: 68px;
   border-bottom-color: #9c9c9c80;
   border-bottom-style: solid;
   border-bottom-width: 0.55px;
-  padding-top: 30px;
+  margin-bottom: 30px;
 }
 .navigate h2 {
   font-family: "Inter", sans-serif;
@@ -49,5 +48,4 @@
   display: flex;
   justify-content: center;
   align-items: center;
-} */
-/***********revies section*************************************/
+}

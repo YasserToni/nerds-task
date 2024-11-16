@@ -1,0 +1,115 @@
+.cards-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  background-color: #f9f9f9;
+  margin-bottom: 100px;
+}
+.cards-container .card {
+  /* width: 263px;
+  height: 376px; */
+  padding: 15px 10px 0px;
+  margin-bottom: 30px;
+  background-color: #ffffff;
+}
+.cards-container .card .love {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-top: 20px;
+}
+.cards-container .card .img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cards-container .card img {
+  width: 236.55px;
+  height: 178px;
+}
+.cards-container .card h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  color: #374957;
+}
+.cards-container .card .review {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 13px;
+  padding: 10px 0px 50px;
+}
+.cards-container .card .review i {
+  margin: 0px 2px 0px 2px;
+}
+
+.cards-container .card .review span {
+  margin: 0px 2px 0px 2px;
+  color: #6c757d;
+}
+
+.cards-container .card .price {
+  display: flex;
+  justify-content: space-between;
+}
+.cards-container .card .price i {
+  padding: 7px;
+  margin-right: 10px;
+  margin: 0px 2px 0px 2px;
+}
+
+.cards-container .card .price .active {
+  padding: 7px;
+  margin-right: 10px;
+  margin: 0px 2px 0px 2px;
+  border-radius: 50%;
+  background-color: #beaf7c;
+  color: #ffffff;
+}
+.cards-container .card .after {
+  font-family: "Roboto", sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 14px;
+  color: #999999;
+  text-decoration: line-through;
+}
+.cards-container .card .before {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  color: #374957;
+}
+.yellow {
+  color: #feab2f;
+}
+
+/* For Large Desktops (1441px and above) */
+@media only screen and (min-width: 1441px) {
+}
+
+/* For Small Laptops (1025px - 1440px) */
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+  .cards-container {
+    flex-wrap: wrap;
+  }
+}
+
+/* For Tablets (601px - 1024px) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .cards-container {
+    flex-wrap: wrap;
+  }
+}
+/* For Mobile Devices (up to 600px) */
+@media only screen and (max-width: 600px) {
+  .cards-container {
+    flex-wrap: wrap;
+  }
+}
